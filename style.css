@@ -1,0 +1,176 @@
+body {
+    background-color: #F2F2F2;
+    margin: 0px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+.intro {
+    background-image: url(images/mathildalogo.png);
+    background-size: 720px;
+    background-position: center;
+    padding: 100px;
+    background-repeat: no-repeat;
+}
+
+#presentation li{
+    text-align: center;
+    padding: 20px;
+    display: inline;
+    padding-left:3px;
+    padding-right:3px;
+ }
+
+#presentation a {
+    text-decoration: none;
+    color: black;
+    transition: color 0.3s;
+}
+
+#presentation a:hover{
+    color: gray;
+}
+
+.photos {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+    padding: 10px;
+
+}
+
+
+.photo-grey img {
+    width: 385px;
+    object-fit: cover;
+    object-position: bottom;
+    border-radius: 4px;
+    border: solid lightgray;
+    border-width:6px;
+    margin: 25px;
+
+   
+}
+
+.products {
+
+    background-color: white;
+    font-size: 13px;
+    font-weight: 500;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+    padding: 10px;
+   
+}
+
+.products-box img {
+    width: 100px;
+    height: 100px;
+    border-radius: 55px;
+    object-fit: cover;
+    object-position: bottom;
+    padding: 50px;
+
+}
+
+.products-box h3 {
+    margin: 20px;    
+}
+
+h1 {
+    background-color: grey;
+    height: 170px;
+    border-radius: 12px;
+    font-size: 45px;
+    color: antiquewhite;
+    padding-top: 40px;
+    margin: 65px;
+    
+}
+
+.history{
+    background-color: antiquewhite;
+    padding: 50px;
+}
+
+.who-box img {
+    width: 200px;
+    border: solid #497e76;
+    border-width: 4px;
+    border-radius: 15px;
+    margin: 25px;
+    object-position: bottom;
+
+}
+
+.who-box p {
+    text-align: left;
+
+   padding: 50px;
+}
+
+.refill {
+   
+    text-align: justify;
+    text-align: center;
+    background-color: white;
+    border: solid blanchedalmond;
+    border-radius: 50px;
+    padding: 50px;
+    margin: 50px;
+}
+
+footer {
+    background-color: lightgray;
+    padding-top: 70px;
+    margin-top: -50x;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+#social {
+    list-style: none;
+    display: inline;
+    padding-left:3px;
+    padding-right:3px;
+}
+
+#social a {
+    text-decoration: none;
+    color: black;
+    transition: color 0.3s;
+}
+
+#social a:hover{
+    color: gray;}
+
+
+.final-grid {
+    overflow:hidden;
+    width:800px;
+    display: inline;
+}
+.final-grid div {
+    /* cualquier altura mayor que el total de sumar la anchura de las img */
+    width:80px;
+
+    /* para evitar el margen superior de la primera fila */
+    margin-top:-10px;
+}
+
+
+.final-box h5 {
+    background-color: gray;
+    background-size: all;
+    padding: 30px;
+    font-weight: 500;
+
+}
+    
