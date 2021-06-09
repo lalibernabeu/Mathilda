@@ -6,7 +6,7 @@ body {
 }
 
 .intro {
-    background-image: url(images/mathildalogo.png);
+    background-image: url(mathildalogo.png);
     background-size: 720px;
     background-position: center;
     padding: 100px;
